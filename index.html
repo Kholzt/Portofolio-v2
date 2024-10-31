@@ -145,6 +145,8 @@
     <script src="https://www.gstatic.com/firebasejs/9.17.1/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/9.17.1/firebase-firestore-compat.js"></script>
     <script>
+        document.addEventListener('contextmenu', event => event.preventDefault());
+
         // Konfigurasi Firebase Anda
         const firebaseConfig = {
             apiKey: "AIzaSyDFaxyAczEOVLcnSSIdoQuScZbLvUe4W38",
