@@ -20,7 +20,8 @@ app.get("/projects",async (req, res) => {
 });
 // Serve index.html when accessing the root URL
 app.get("/", (req, res) => {
-    res.sendFile(path.join(__dirname, 'views', 'index.html'));
+    // res.sendFile(path.join(__dirname, 'views', 'index.html'));
+    res.json("halo")
 });
 
 
