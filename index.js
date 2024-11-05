@@ -24,7 +24,8 @@ app.get("/", (req, res) => {
 });
 
 
+module.exports = app;
 
-app.listen(5000, function () {
-    console.log("Server running on port 5000");
-});
+// app.listen(5000, function () {
+//     console.log("Server running on port 5000");
+// });
